@@ -1,3 +1,5 @@
+Site Link : https://gaurav270901.github.io/BlogPostWebsiteUsingPromptEngineering/
+
 # 📝 Dynamic Blog Platform Using Prompt Engineering
 
 This is a simple, dynamic blog platform created entirely through **prompt engineering** with ChatGPT — without writing a single line of code independently or using pre-built templates. The goal of this project is to **showcase the true power of AI when guided with well-crafted prompts**.
