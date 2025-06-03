@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Blog</h1>
+
+    <!-- Blog Post Form -->
+    <form id="blog-form" method="POST" action="/submit">
+      <label for="title">Title:</label><br />
+      <input type="text" id="title" name="title" required /><br /><br />
+      <script src="script.js"></script>
+
+      <label for="content">Content:</label><br />
+      <textarea
+        id="content"
+        name="content"
+        rows="5"
+        cols="40"
+        required
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Submit Post</button>
+    </form>
+
+    <hr />
+
+    <!-- Section to display blog posts -->
+    <h2>All Blog Posts</h2>
+    <div id="posts">
+      <!-- Blog posts will appear here -->
+    </div>
+  </body>
+</html>
